@@ -115,6 +115,7 @@ img = np.float32(img)
 
 frame = img
 #frame_i = 0
+i = 0
 
 while i< (len(blobs)):
     try:
