@@ -98,8 +98,8 @@ def deepdream(net, base_img, iter_n=10, octave_n=4, octave_scale=1.4, end='incep
 
 
 #maxwidth = json_data['maxwidth']
-maxwidth = img.size[0]; #set maxwidth to image width
 img = PIL.Image.open('input.jpg')
+maxwidth = img.size[0]; #set maxwidth to image width
 width = img.size[0]
 
 if width > maxwidth:
